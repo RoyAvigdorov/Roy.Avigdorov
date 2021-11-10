@@ -1,0 +1,23 @@
+*{
+    color: blue;
+    background-color: rgb(219, 130, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+h1{
+    color: greenyellow;
+    font-size: 40px;
+}
+
+.heading {
+    color: hotpink;
+    text-align: center;
+    padding: auto;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+#heading2 {
+    color: indigo;
+}
