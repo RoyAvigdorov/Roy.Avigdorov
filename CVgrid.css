@@ -17,6 +17,7 @@ body{
     width: 100%;
     background-color: red;
     height: 33vh;
+
 }
 
 #item2{
@@ -47,5 +48,23 @@ body{
     }
 
 
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 30px;
+    background-color: blue;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes blink {
+    0% {background-color: blue; border-radius: 0%;}
+    50% {background-color: white; border-radius: 50%;}
+    100% {background-color: blue; border-radius: 100%;}
 }
 
