@@ -6,4 +6,4 @@ function thankyou(){
 
 var myName = "Roy Avigdorov" ;
 console.log(myName);
-
+    
